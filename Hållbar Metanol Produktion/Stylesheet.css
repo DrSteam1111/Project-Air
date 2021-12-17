@@ -78,16 +78,16 @@ h2 {
 
 .gif {
    
-   margin-left: 400px;
-   margin-top: -29px;
+   margin-left: 650px;
+   margin-top: 130px;
    overflow: hidden;
    opacity: 0;
    animation: fadeInOut 2s forwards linear;
-   animation-delay: 3s;
+   animation-delay: 1.5s;
    
 }
 
 
-#gifelektrolys {
-    width: 80vw;
+#metanol {
+    width: 45vw;
 }
