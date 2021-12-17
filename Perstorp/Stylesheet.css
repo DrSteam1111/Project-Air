@@ -5,7 +5,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
+    font-family:YaHei;
 }
+
+@font-face {
+    font-family: YaHei;
+    src: url(msyhbd.ttc);
+}
+
 
 
 h1 {
@@ -41,7 +48,7 @@ h2 {
     font-size: 25px;
     position: absolute;
     top: 30px;
-    left: 125px;
+    left: 180px;
     right: 750px;
     opacity: 0;
     animation: fadeInOut 2s forwards linear;
@@ -53,8 +60,8 @@ h2 {
     font-size: 15px;
     position: absolute;
     margin-top: 110px;
-    width: 35%;
-    margin-left: 50px;
+    width: 38%;
+    margin-left: 48px;
     opacity: 0;
     animation: fadeInOut 2s forwards linear;
     animation-delay: 6s;
@@ -64,8 +71,8 @@ h3 {
     color: white;
     font-size: 25px;
     position: absolute;
-    top: 220px;
-    left: 80px;
+    top: 185px;
+    left: 70px;
     right: 750px;
     opacity: 0;
     animation: fadeInOut 2s forwards linear;
@@ -76,7 +83,7 @@ h3 {
     color: white;
     font-size: 15px;
     position: absolute;
-    margin-top: 330px;
+    margin-top: 295px;
     width: 35%;
     margin-left: 50px;
     opacity: 0;

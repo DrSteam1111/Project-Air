@@ -1,0 +1,66 @@
+body {
+    background-image: url(prj2.gif);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 710px;
+    font-family:YaHei;
+}
+
+@font-face {
+    font-family: YaHei;
+    src: url(msyhbd.ttc);
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 700px;
+    
+    
+}
+
+
+h1 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 155px;
+    right: 750px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 2s;
+}
+
+#first {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 110px;
+    width: 28%;
+    margin-left: 65px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 4s;
+}
+
+
+
+
+
+
