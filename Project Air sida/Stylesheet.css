@@ -26,10 +26,12 @@ body {
 }
 
 .content {
+    display: flex;
     width: 100%;
     position: absolute;
     margin-top: 450px;
     margin-left: 700px;
+    
     
     
 }
@@ -39,8 +41,8 @@ h1 {
     color: white;
     font-size: 25px;
     position: absolute;
-    top: 30px;
-    left: 155px;
+    top: 35px;
+    left: 195px;
     right: 750px;
     opacity: 0;
     animation: fadeInOut 2s forwards linear;
@@ -53,10 +55,17 @@ h1 {
     position: absolute;
     margin-top: 110px;
     width: 28%;
-    margin-left: 65px;
+    margin-left: 95px;
     opacity: 0;
     animation: fadeInOut 2s forwards linear;
     animation-delay: 4s;
+}
+
+#pil {
+    margin-left: -140px;
+    margin-top: 20px;
+    height: 50vw;
+    
 }
 
 
