@@ -1,0 +1,121 @@
+body {
+    background-image: url("gradientbakgrund.png");
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    font-family:YaHei;
+}
+
+
+h1 {
+    color: white;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 0.5s;
+    
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@font-face {
+    font-family: YaHei;
+    src: url(msyhbd.ttc);
+}
+
+
+
+
+h2 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    right: 750px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 4s;
+}
+
+#first {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 110px;
+    width: 38%;
+    margin-left: 50px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 6s;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    right: 750px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 8s;
+}
+
+#second {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 330px;
+    width: 38%;
+    margin-left: 50px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 10s;
+}
+
+
+
+
+.image {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+    opacity: 0;
+    animation: fadeInOut 2s forwards linear;
+    animation-delay: 3.5s;
+}
+
+.gif {
+   
+   margin-left: 800px;
+   margin-top: 100px;
+   overflow: hidden;
+   opacity: 0;
+   animation: fadeInOut 2s forwards linear;
+   animation-delay: 1.5s;
+   
+}
+
+
+#biomassa {
+    width: 20vw;
+}
